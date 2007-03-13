@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<PropertyList include="me262-base.xml">
+
+ <sim>
+  <author>Michael Koehne (FDM) / BARANGER Emmanuel (3D model)</author>
+
+  <flight-model>yasim</flight-model>
+  <aero>me262-yasim</aero>
+
+ </sim>
+
+ <yasim>
+   <me262>
+     <pilot-lb>128</pilot-lb>
+   </me262>
+ </yasim>
+
+ <controls>
+  <!-- gear> <brake-parking>1</brake-parking> </gear -->
+ </controls>
+
+ <nasal>
+   <pilot><file>Aircraft/ME-262/Nasal/pilot-g.nas</file></pilot>
+ </nasal>
+
+</PropertyList>
+
