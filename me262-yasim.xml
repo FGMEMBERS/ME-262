@@ -1,6 +1,8 @@
 <!--  Messerschmitt 262
 
-      Michael Koehne
+      Michael KOEHNE
+      
+      Udpated BARANGER Emmanuel
 -->
 
 <airplane mass="8400">
@@ -29,7 +31,7 @@
 <!-- Fuselage with engine on top -->
 <fuselage ax="6.43" ay="0" az="0.44" bx="-6.05" by="0" bz="0.44" width="1.37" taper="0.5" midpoint="0.40"/>
 
-<fuselage ax="4.02" ay="1.86" az="-0.67" bx="-0.53" by="1.86" bz="-0.67" width="0.75" taper="0.8" midpoint="0.50"/>
+<fuselage ax="4.021" ay="1.86" az="-0.67" bx="-0.53" by="1.86" bz="-0.67" width="0.75" taper="0.8" midpoint="0.50"/>
 
 <fuselage ax="4.021" ay="-1.86" az="-0.67" bx="-0.53" by="-1.86" bz="-0.67" width="0.75" taper="0.8" midpoint="0.50"/>
 
@@ -98,8 +100,8 @@
  2*380 liter fuselage
  2*280 liter wings
  -->
-<tank x="2.50" y="0"   z="-0.10" jet="true" capacity="1400"/>
-<tank x="-1.50" y="0"   z="-0.10" jet="true" capacity="700"/>
+<tank x="3.50" y="0"   z="-0.10" jet="true" capacity="1400"/>
+<tank x="-0.50" y="0"   z="-0.10" jet="true" capacity="700"/>
 <tank x="1.10" y="-2.3" z="0.10" jet="true" capacity="1250"/>
 <tank x="1.10"  y="2.3" z="0.10" jet="true" capacity="1250"/>
 

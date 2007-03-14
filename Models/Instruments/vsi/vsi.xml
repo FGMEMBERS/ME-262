@@ -21,40 +21,40 @@
   <property>/instrumentation/vertical-speed-indicator/indicated-speed-fpm</property>
   <interpolation>
    <entry>
-    <ind>-6000</ind>
-    <dep>170</dep>
+    <ind>-5905</ind>
+    <dep>160</dep>
    </entry>
    <entry>
-    <ind>-4000</ind>
-    <dep>139</dep>
+    <ind>-4724</ind>
+    <dep>127</dep>
    </entry>
    <entry>
-    <ind>-2000</ind>
-    <dep>83</dep>
+    <ind>-3543</ind>
+    <dep>90</dep>
    </entry>
    <entry>
-    <ind>-1000</ind>
-    <dep>48</dep>
+    <ind>-1771</ind>
+    <dep>53</dep>
    </entry>
    <entry>
     <ind>0</ind>
     <dep>0</dep>
    </entry>
    <entry>
-    <ind>1000</ind>
-    <dep>-48</dep>
+    <ind>1771</ind>
+    <dep>-53</dep>
    </entry>
    <entry>
-    <ind>2000</ind>
-    <dep>-83</dep>
+    <ind>3543</ind>
+    <dep>-90</dep>
    </entry>
    <entry>
-    <ind>4000</ind>
-    <dep>-139</dep>
+    <ind>4724</ind>
+    <dep>-127</dep>
    </entry>
    <entry>
-    <ind>6000</ind>
-    <dep>-170</dep>
+    <ind>5905</ind>
+    <dep>-160</dep>
    </entry>
   </interpolation>
   <axis>
