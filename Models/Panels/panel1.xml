@@ -41,6 +41,15 @@
   </model>
 
   <model>
+    <path>Aircraft/ME-262/Models/Instruments/compass/compass.xml</path>
+    <offsets>
+      <x-m> -0.402 </x-m>
+      <y-m> -0.062 </y-m>
+      <z-m>  0.260 </z-m>
+    </offsets>
+  </model>
+
+  <model>
     <path>Aircraft/ME-262/Models/Instruments/throttle/throttle1.xml</path>
     <offsets>
       <x-m> -0.411 </x-m>
@@ -59,12 +68,57 @@
   </model>
 
   <model>
-    <path>Aircraft/ME-262/Models/Instruments/compass/compass.xml</path>
+    <path>Aircraft/ME-262/Models/Instruments/egt/egtL.xml</path>
     <offsets>
-      <x-m> -0.402 </x-m>
-      <y-m> -0.062 </y-m>
-      <z-m>  0.260 </z-m>
+      <x-m> -0.410 </x-m>
+      <y-m>  0.096 </y-m>
+      <z-m>  0.249 </z-m>
     </offsets>
   </model>
-  
+
+  <model>
+    <path>Aircraft/ME-262/Models/Instruments/egt/egtR.xml</path>
+    <offsets>
+      <x-m> -0.410 </x-m>
+      <y-m>  0.141 </y-m>
+      <z-m>  0.249 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/ME-262/Models/Instruments/pression/pressionL.xml</path>
+    <offsets>
+      <x-m> -0.410 </x-m>
+      <y-m>  0.051 </y-m>
+      <z-m>  0.249 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/ME-262/Models/Instruments/pression/pressionR.xml</path>
+    <offsets>
+      <x-m> -0.410 </x-m>
+      <y-m>  0.187 </y-m>
+      <z-m>  0.249 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/ME-262/Models/Instruments/fuel/fuelL.xml</path>
+    <offsets>
+      <x-m> -0.410 </x-m>
+      <y-m>  0.096 </y-m>
+      <z-m>  0.136 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/ME-262/Models/Instruments/fuel/fuelR.xml</path>
+    <offsets>
+      <x-m> -0.410 </x-m>
+      <y-m>  0.141 </y-m>
+      <z-m>  0.136 </z-m>
+    </offsets>
+  </model>
+
 </PropertyList>

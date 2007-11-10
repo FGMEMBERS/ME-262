@@ -4,8 +4,8 @@
 
  <sim>
  
+  <author>Michael Koehne (FDM) / BARANGER Emmanuel (3D)</author>
   <status>alpha</status>
-  <author>BARANGER Emmanuel</author>
   
   <fuel-fraction>1.0</fuel-fraction>
   
@@ -33,6 +33,7 @@
       <y-offset-m archive="y"> 0.952 </y-offset-m>
       <z-offset-m archive="y">-1.264 </z-offset-m>
       <default-field-of-view-deg>55</default-field-of-view-deg>
+      <pitch-offset-deg>-14</pitch-offset-deg>
     </config>
   </view>
 
@@ -67,10 +68,13 @@
  </consumables>
 
  <input>
-   <keyboard include="Nasal/me262-keyboard.xml">
-   </keyboard>
+   <keyboard include="Nasal/me262-keyboard.xml"/>
  </input>
  
+ <controls>
+  <!-- gear> <brake-parking>1</brake-parking> </gear -->
+ </controls>
+
  <nasal>
    <me262>
      <file>Aircraft/ME-262/Nasal/doors.nas</file>

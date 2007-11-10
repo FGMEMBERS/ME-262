@@ -7,7 +7,7 @@
     <desc>Passenger door</desc>
     <binding>
      <command>nasal</command>
-     <script>globals.me262.doorsystem.passengerexport();</script>
+     <script>me262.doorsystem.passengerexport();</script>
     </binding>
    </key>
 
@@ -16,7 +16,7 @@
     <desc>Crew door</desc>
     <binding>
      <command>nasal</command>
-     <script>globals.me262.doorsystem.crewexport();</script>
+     <script>me262.doorsystem.crewexport();</script>
     </binding>
    </key>
 

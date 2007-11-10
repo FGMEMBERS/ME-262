@@ -2,7 +2,7 @@
 
       Michael KOEHNE
       
-      Udpated BARANGER Emmanuel
+      Udpated BARANGER Emmanuel and FABER Detlef
 -->
 
 <airplane mass="8400">
@@ -29,7 +29,7 @@
 <ballast x="3.9" y="0" z="0.25" mass="900"/>
 
 <!-- Fuselage with engine on top -->
-<fuselage ax="6.43" ay="0" az="0.44" bx="-6.05" by="0" bz="0.44" width="1.37" taper="0.5" midpoint="0.40"/>
+<fuselage ax="6.435" ay="0" az="0.041" bx="-6.045" by="0" bz="0.207" width="1.37" taper="0.5" midpoint="0.40"/>
 
 <fuselage ax="4.021" ay="1.86" az="-0.67" bx="-0.53" by="1.86" bz="-0.67" width="0.75" taper="0.8" midpoint="0.50"/>
 
@@ -40,23 +40,39 @@
  8.8 kN (1,980 lbf) 8700 rpm
  -->
 <jet x="1.74" y="1.86" z="-0.59"
-   n1-idle="30" n1-max="90" n2-idle="35" n2-max="95"
-   egt="850" tsfc="1.39" mass="1642" thrust="1980" >
+   n1-idle="30" 
+   n1-max="90" 
+   n2-idle="35" 
+   n2-max="95"
+   egt="850" 
+   tsfc="1.39"
+   mass="1642" 
+   thrust="1980" >
   <control-input axis="/controls/engines/engine[0]/throttle" control="THROTTLE"/>
 </jet>
 <jet x="1.74" y="-1.86" z="-0.59" 
-   n1-idle="30" n1-max="90" n2-idle="35" n2-max="95"
-   egt="850" tsfc="1.39" mass="1642" thrust="1980" >
+   n1-idle="30" 
+   n1-max="90" 
+   n2-idle="35" 
+   n2-max="95"
+   egt="850" 
+   tsfc="1.39" 
+   mass="1642" 
+   thrust="1980" >
   <control-input axis="/controls/engines/engine[1]/throttle" control="THROTTLE"/>
 </jet>
 
-<wing x="1.37" y="0.64" z="-0.27"
-      length="4.58" chord="2.65" taper="0.5"
-      incidence="1" twist="-1.0"
-      sweep="10.0" dihedral="6.3">
+<wing x="1.358" y="0.622" z="-0.26"
+      length="4.58" 
+      chord="2.65" 
+      taper="0.5"
+      incidence="1" 
+      twist="-1.0"
+      sweep="10.0" 
+      dihedral="6.3">
   <stall aoa="16" width="3" peak="1.3"/>
   <flap0 start="0.04" end="0.52" lift="1.3" drag="1.5"/>
-  <flap1 start="0.54" end="0.90" lift="1.5" drag="1.3"/>
+  <flap1 start="0.54" end="0.90" lift="1.1" drag="1.0"/>
 
   <control-input axis="/controls/flight/flaps" control="FLAP0"/>
   <control-input axis="/controls/flight/aileron" control="FLAP1" square="true" split="true"/>
@@ -75,8 +91,11 @@
 </wing>
 
 <hstab x="-5.15" y="0" z="0.84"
-       length="1.46" chord="1.33" taper="0.25"
-       dihedral="0.0"> <!-- effectiveness="2" -->
+       length="1.46" 
+       chord="1.33" 
+       taper="0.25"
+       dihedral="0.0"
+       effectiveness="1.5">
   <stall aoa="20" width="3" peak="1.3"/>
 
   <flap0 start="0.1" end="0.8" lift="1.6" drag="1.5"/>
@@ -88,7 +107,10 @@
 </hstab>
 
 <vstab x="-5.70" y="0.00" z="1.17"
-       length="0.707" chord="2.25" taper="0.25" >
+       length="0.707" 
+       chord="2.25" 
+       taper="0.25">
+       <!-- effectiveness="2"> -->
   <stall aoa="16" width="5" peak="1.5"/>
   <flap0 start="0.1" end="0.9" lift="1.8" drag="1.3"/>
   <control-input axis="/controls/flight/rudder" control="FLAP0" invert="true"/>
@@ -97,11 +119,8 @@
 </vstab>
 
 <!-- Internal tanks 
- 2*380 liter fuselage
  2*280 liter wings
  -->
-<tank x="3.50" y="0"   z="-0.10" jet="true" capacity="1400"/>
-<tank x="-0.50" y="0"   z="-0.10" jet="true" capacity="700"/>
 <tank x="1.10" y="-2.3" z="0.10" jet="true" capacity="1250"/>
 <tank x="1.10"  y="2.3" z="0.10" jet="true" capacity="1250"/>
 
@@ -115,7 +134,7 @@
 </gear>
 
 <!-- left main -->
-<gear x="1.110" y="1.129" z="-1.660" retract-time="7" compression="0.30" spring="1" damp="2" >
+<gear x="1.368" y="0.997" z="-1.656" retract-time="7" compression="0.30" spring="1" damp="2" >
   <control-input axis="/controls/gear/brake-left" control="BRAKE"/>
   <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
   <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
@@ -124,13 +143,16 @@
 </gear>
 
 <!-- right main -->
-<gear x="1.110" y="-1.129" z="-1.660" retract-time="7" compression="0.30" spring="1" damp="2" >
+<gear x="1.368" y="-0.997" z="-1.656" retract-time="7" compression="0.30" spring="1" damp="2" >
   <control-input axis="/controls/gear/brake-right" control="BRAKE"/>
   <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
   <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
   <control-output control="EXTEND" prop="/gear/gear[2]/position-norm"/>
   <control-speed control="EXTEND" transition-time="7"/>
 </gear>
+
+<!-- Update CG to x=1.710 y=0.0 z=-0.119 -->
+<ballast x="5.0" y="0.0" z="0.0" mass="1000"/>
 
 </airplane>
 
