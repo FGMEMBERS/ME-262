@@ -20,5 +20,35 @@
     </binding>
    </key>
 
+   <key n="101">
+     <name>e</name>
+     <desc>Fire MG</desc>
+     <binding>
+       <command>nasal</command>
+       <script>me262.fire_MG()</script>
+     </binding>
+     <mod-up>
+       <binding>
+         <command>nasal</command>
+         <script>me262.stop_MG()</script>
+       </binding>
+     </mod-up>
+   </key>
+
+   <key n="69">
+     <name>E</name>
+     <desc>fire engine Cannon</desc>
+     <binding>
+       <command>nasal</command>
+       <script>me262.fire_cannon()</script>
+     </binding>
+     <mod-up>
+       <binding>
+         <command>nasal</command>
+         <script>me262.stop_cannon()</script>
+       </binding>
+     </mod-up>
+   </key>
+
 </PropertyList>
 

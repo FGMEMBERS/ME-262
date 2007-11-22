@@ -16,13 +16,5 @@
    </me262>
  </yasim>
 
- <controls>
-  <!-- gear> <brake-parking>1</brake-parking> </gear -->
- </controls>
-
- <nasal>
-   <pilot><file>Aircraft/ME-262/Nasal/pilot-g.nas</file></pilot>
- </nasal>
-
 </PropertyList>
 

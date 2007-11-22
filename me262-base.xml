@@ -2,9 +2,9 @@
 
 <PropertyList>
 
- <sim>
+ <sim  include="Nasal/views.xml">
  
-  <author>Michael Koehne (FDM) / BARANGER Emmanuel (3D)</author>
+  <author>BARANGER Emmanuel (3D), Michael Koehne (FDM)</author>
   <status>alpha</status>
   
   <fuel-fraction>1.0</fuel-fraction>
@@ -23,19 +23,6 @@
   </startup>
 
   <virtual-cockpit archive="y">true</virtual-cockpit>
-
-  <chase-distance-m type="double" archive="y">-30.0</chase-distance-m>
-  
-  <view n="0">
-    <internal archive="y">true</internal>
-    <config>
-      <x-offset-m archive="y"> 0.000 </x-offset-m>
-      <y-offset-m archive="y"> 0.952 </y-offset-m>
-      <z-offset-m archive="y">-1.264 </z-offset-m>
-      <default-field-of-view-deg>55</default-field-of-view-deg>
-      <pitch-offset-deg>-14</pitch-offset-deg>
-    </config>
-  </view>
 
   <help>
     <title>Messerschmitt Me 262</title>
@@ -71,10 +58,6 @@
    <keyboard include="Nasal/me262-keyboard.xml"/>
  </input>
  
- <controls>
-  <!-- gear> <brake-parking>1</brake-parking> </gear -->
- </controls>
-
  <nasal>
    <me262>
      <file>Aircraft/ME-262/Nasal/doors.nas</file>
