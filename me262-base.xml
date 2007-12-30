@@ -4,7 +4,7 @@
 
  <sim  include="Nasal/views.xml">
  
-  <author>BARANGER Emmanuel (3D), Michael Koehne (FDM)</author>
+  <author>Emmanuel BARANGER (3D), Michael KOEHNE (FDM), Laurent HAYVEL (Texture)</author>
   <status>alpha</status>
   
   <fuel-fraction>1.0</fuel-fraction>
@@ -33,6 +33,12 @@
   </help>
     
  </sim>
+
+ <yasim>
+   <me262>
+     <pilot-lb>128</pilot-lb>
+   </me262>
+ </yasim>
 
  <engines>
    <engine n="0">

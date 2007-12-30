@@ -3,18 +3,12 @@
 <PropertyList include="me262-base.xml">
 
  <sim>
-  <author>Michael Koehne (FDM) / BARANGER Emmanuel (3D model)</author>
+  <author>Emmanuel BARANGER (3D/ / Michael KOEHNE (FDM) / Laurent HAYVEL (Texture)</author>
 
   <flight-model>yasim</flight-model>
   <aero>me262-yasim</aero>
 
  </sim>
-
- <yasim>
-   <me262>
-     <pilot-lb>128</pilot-lb>
-   </me262>
- </yasim>
 
 </PropertyList>
 

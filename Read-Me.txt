@@ -26,15 +26,16 @@ Some useful keys:
 
 Thanks
 ======
-Michael Koehne for FDM
+Michael KOEHNE for FDM
+Laurent HAYVEL for the livrery
 
 ===============
 BARANGER Emmanuel
 May, 25, 2007. 
+December, 31, 2007.
 
 http://helijah.free.fr/flightgear/hangar.htm
 embaranger@free.fr
-
 
 [Français]
 ----------
@@ -64,10 +65,12 @@ Quelques touches utiles :
 Remerciements
 =============
 Michael Koehne pour le FDM
+Laurent HAYVEL pour la superbe livrée
 
 ===============
 BARANGER Emmanuel
 25 Mai 2007.
+31 Décembre 2007.
 
 http://helijah.free.fr/flightgear/hangar.htm
 embaranger@free.fr
