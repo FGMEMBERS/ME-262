@@ -2,72 +2,90 @@
 
 <PropertyList>
 
- <sim  include="Nasal/views.xml">
+  <sim  include="Nasal/views.xml">
  
-  <author>Emmanuel BARANGER (3D), Michael KOEHNE (FDM), Laurent HAYVEL (Texture)</author>
-  <status>alpha</status>
+    <author>Emmanuel BARANGER (3D), Michael KOEHNE (FDM), Laurent HAYVEL (Texture)</author>
+    <status>alpha</status>
   
-  <fuel-fraction>1.0</fuel-fraction>
+    <fuel-fraction>1.0</fuel-fraction>
   
-  <sound>
-    <audible>true</audible>
-    <path>Aircraft/ME-262/Sounds/me262-sound.xml</path>
-  </sound>
+    <sound>
+      <audible>true</audible>
+      <path>Aircraft/ME-262/Sounds/me262-sound.xml</path>
+    </sound>
 
-  <model>
-   <path>Aircraft/ME-262/Models/me262.xml</path>
-  </model>
+    <model>
+      <path>Aircraft/ME-262/Models/me262.xml</path>
+    </model>
 
-  <startup>
-   <splash-texture>Aircraft/ME-262/me262-splash.rgb</splash-texture>
-  </startup>
+    <submodels> 
+      <serviceable type="bool">true</serviceable>
+      <path>Aircraft/ME-262/Models/effects/guns/submodels.xml</path>
+    </submodels>
 
-  <virtual-cockpit archive="y">true</virtual-cockpit>
 
-  <help>
-    <title>Messerschmitt Me 262</title>
-    <key>
-      <name>d</name>
-      <desc>Open/Close canopy</desc>
-    </key>
-  </help>
+    <startup>
+     <splash-texture>Aircraft/ME-262/me262-splash.rgb</splash-texture>
+    </startup>
+
+    <virtual-cockpit archive="y">true</virtual-cockpit>
+
+    <help>
+      <title>Messerschmitt Me 262</title>
+      <key>
+        <name>d</name>
+        <desc>Open/Close canopy</desc>
+      </key>
+      <key>
+        <name>e</name>
+        <desc>Guns fire</desc>
+      </key>
+    </help>
     
- </sim>
+  </sim>
 
- <yasim>
-   <me262>
-     <pilot-lb>128</pilot-lb>
-   </me262>
- </yasim>
+  <yasim>
+    <me262>
+      <pilot-lb>128</pilot-lb>
+    </me262>
+  </yasim>
 
- <engines>
-   <engine n="0">
-     <engine-num type="int">0</engine-num>
-     <running>true</running>
-   </engine>
-   <engine n="1">
-     <engine-num type="int">1</engine-num>
-     <running>true</running>
-   </engine>
- </engines>
+  <engines>
+    <engine n="0">
+      <engine-num type="int">0</engine-num>
+      <running>true</running>
+    </engine>
+    <engine n="1">
+      <engine-num type="int">1</engine-num>
+      <running>true</running>
+    </engine>
+  </engines>
 
- <consumables>
-   <fuel>
-     <tank n="0">
-       <tank-num type="int">0</tank-num>
-       <level-gal_us archive="y">2070</level-gal_us>
-     </tank>
-   </fuel>
- </consumables>
+  <armament>
+    <trigger type="bool">false</trigger>
+  </armament>
 
- <input>
-   <keyboard include="Nasal/me262-keyboard.xml"/>
- </input>
+  <consumables>
+    <fuel>
+      <tank n="0">
+        <tank-num type="int">0</tank-num>
+        <level-gal_us archive="y">2070</level-gal_us>
+      </tank>
+    </fuel>
+  </consumables>
+
+  <input>
+    <keyboard include="Nasal/me262-keyboard.xml"/>
+  </input>
  
- <nasal>
-   <me262>
-     <file>Aircraft/ME-262/Nasal/doors.nas</file>
-   </me262>
- </nasal>
+  <nasal>
+    <me262>
+      <file>Aircraft/ME-262/Nasal/doors.nas</file>
+    </me262>
+    <guns>
+      <file>Aircraft/ME-262/Nasal/weapons.nas</file>
+    </guns>
+  </nasal>
 
 </PropertyList>
+

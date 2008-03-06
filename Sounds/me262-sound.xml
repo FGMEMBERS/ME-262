@@ -367,7 +367,6 @@
       <volume>
         <property>/velocities/airspeed-kt</property>
         <factor>0.002</factor>
-        <!--min>0.03</min-->
         <max>0.25</max>
       </volume>
       <pitch>
@@ -387,12 +386,81 @@
       </volume>
     </stall>
 
-<!-- no binding yet?
-    <click>
-      <name>click</name>
-      <path>Sounds/click.wav</path>
-    </click>
--->
+    <gun>
+      <name>Gun up left</name>
+      <mode>looped</mode>
+      <path>Aircraft/ME-262/Sounds/gunfire_1.wav</path>
+      <condition>
+        <and>
+          <property>controls/armament/trigger</property>
+          <property>ai/submodels/submodel[0]/count</property>
+        </and>
+      </condition>
+      <position>
+        <x> -5.363 </x>
+        <y> -0.125 </y>
+        <z>  0.414 </z>
+      </position>
+      <reference-dist>100</reference-dist>
+      <max-dist>500</max-dist>
+    </gun>
+
+    <gun>
+      <name>Gun up right</name>
+      <mode>looped</mode>
+      <path>Aircraft/ME-262/Sounds/gunfire_1.wav</path>
+      <condition>
+        <and>
+          <property>controls/armament/trigger</property>
+          <property>ai/submodels/submodel[0]/count</property>
+        </and>
+      </condition>
+      <position>
+        <x> -5.363 </x>
+        <y>  0.125 </y>
+        <z>  0.414 </z>
+      </position>
+      <reference-dist>100</reference-dist>
+      <max-dist>500</max-dist>
+    </gun>
+
+    <gun>
+      <name>Gun down left</name>
+      <mode>looped</mode>
+      <path>Aircraft/ME-262/Sounds/gunfire_1.wav</path>
+      <condition>
+        <and>
+          <property>controls/armament/trigger</property>
+          <property>ai/submodels/submodel[0]/count</property>
+        </and>
+      </condition>
+      <position>
+        <x> -5.084 </x>
+        <y> -0.306 </y>
+        <z>  0.237 </z>
+      </position>
+      <reference-dist>100</reference-dist>
+      <max-dist>500</max-dist>
+    </gun>
+
+    <gun>
+      <name>Gun down left</name>
+      <mode>looped</mode>
+      <path>Aircraft/ME-262/Sounds/gunfire_1.wav</path>
+      <condition>
+        <and>
+          <property>controls/armament/trigger</property>
+          <property>ai/submodels/submodel[0]/count</property>
+        </and>
+      </condition>
+      <position>
+        <x> -5.084 </x>
+        <y>  0.306 </y>
+        <z>  0.237 </z>
+      </position>
+      <reference-dist>100</reference-dist>
+      <max-dist>500</max-dist>
+    </gun>
 
   </fx>
 
