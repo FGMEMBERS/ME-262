@@ -63,6 +63,17 @@
     <object-name>bruleG</object-name>
     <object-name>bruleD</object-name>
   </animation>
+
+  <!-- Avant -->
+  <model>
+    <name>Pilote</name>
+    <path>Aircraft/ME-262/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> -1.397 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.482 </z-m>
+    </offsets>
+  </model>
   
   <!-- Planches de bord -->
   <!-- Avant -->

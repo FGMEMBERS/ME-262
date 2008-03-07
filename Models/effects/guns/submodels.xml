@@ -5,7 +5,7 @@
   <!-- left-up -->
   <submodel>
     <name>left-up-tracer</name>
-    <model>Aircraft/ME-262/Models/effects/guns/tracer.xml</model>
+    <model>Aircraft/ME-262/Models/effects/guns/apibullet-tracer.xml</model>
     <trigger>controls/armament/trigger</trigger>
     <speed>2460.0</speed>
     <repeat>true</repeat>
@@ -30,7 +30,7 @@
   <!--right up-->
   <submodel>
     <name>right-up-tracer</name>
-    <model>Aircraft/ME-262/Models/effects/guns/tracer.xml</model>
+    <model>Aircraft/ME-262/Models/effects/guns/apibullet-tracer.xml</model>
     <trigger>controls/armament/trigger</trigger>
     <speed>2460.0</speed>
     <repeat>true</repeat>
@@ -55,7 +55,7 @@
   <!-- left-down -->
   <submodel>
     <name>left-down-tracer</name>
-    <model>Aircraft/ME-262/Models/effects/guns/tracer.xml</model>
+    <model>Aircraft/ME-262/Models/effects/guns/apibullet-tracer.xml</model>
     <trigger>controls/armament/trigger</trigger>
     <speed>2460.0</speed>
     <repeat>true</repeat>
@@ -80,7 +80,7 @@
   <!--right down-->
   <submodel>
     <name>right-down-tracer</name>
-    <model>Aircraft/ME-262/Models/effects/guns/tracer.xml</model>
+    <model>Aircraft/ME-262/Models/effects/guns/apibullet-tracer.xml</model>
     <trigger>controls/armament/trigger</trigger>
     <speed>2460.0</speed>
     <repeat>true</repeat>
