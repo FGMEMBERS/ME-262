@@ -20,7 +20,7 @@
   <object-name>Compass</object-name>
   <property>/orientation/heading-deg</property>
   <axis>
-    <x>1</x>
+    <x>-1</x>
     <y>0</y>
     <z>0</z>
   </axis>

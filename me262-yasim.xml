@@ -71,8 +71,8 @@
       sweep="10.0" 
       dihedral="6.3">
   <stall aoa="16" width="3" peak="1.3"/>
-  <flap0 start="0.04" end="0.52" lift="1.3" drag="1.5"/>
-  <flap1 start="0.54" end="0.90" lift="1.1" drag="1.0"/>
+  <flap0 start="0.017" end="0.573" lift="1.3" drag="1.5"/>
+  <flap1 start="0.573" end="0.945" lift="1.1" drag="1.0"/>
 
   <control-input axis="/controls/flight/flaps" control="FLAP0"/>
   <control-input axis="/controls/flight/aileron" control="FLAP1" square="true" split="true"/>
@@ -87,7 +87,7 @@
   <control-output control="FLAP1" prop="/surface-positions/aileron-pos-norm"/>
 
   <control-speed control="FLAP0" transition-time="30"/>
-  <!-- control-speed control="FLAP1" transition-time="0.75"/ -->
+  <control-speed control="FLAP1" transition-time="0.1"/>
 </wing>
 
 <hstab x="-5.15" y="0" z="0.84"

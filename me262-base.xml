@@ -25,7 +25,7 @@
 
 
     <startup>
-     <splash-texture>Aircraft/ME-262/me262-splash.rgb</splash-texture>
+     <splash-texture>Aircraft/ME-262/me262-splash.png</splash-texture>
     </startup>
 
     <virtual-cockpit archive="y">true</virtual-cockpit>

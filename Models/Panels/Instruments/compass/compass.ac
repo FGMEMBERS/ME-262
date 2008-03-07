@@ -2,16 +2,16 @@ AC3Db
 MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
 MATERIAL "Material.001" rgb 0.3672 0.3672 0.3672 amb 0.5 0.5 0.5 emis 0 0 0 spec 0 0 0.050244 shi 32 trans 0
 MATERIAL "ac3dmat1" rgb 1 1 1 amb 0.2 0.2 0.2 emis 0 0 0 spec 0.5 0.5 0.5 shi 10 trans 0
-MATERIAL "Noneai_face.rgb" rgb 0.8 0.8 0.8 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 32 trans 0
-MATERIAL "Nonevisse.rgb" rgb 0.8 0.8 0.8 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 32 trans 0
-MATERIAL "transparent.001" rgb 0.547091 0.565624 0.595981 amb 0 0 0 emis 0 0 0 spec 1 1 1 shi 64 trans 0.5
+MATERIAL "Noneai_face.png" rgb 0.8 0.8 0.8 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 32 trans 0
+MATERIAL "Nonevisse.png" rgb 0.8 0.8 0.8 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 32 trans 0
+MATERIAL "transparent.001" rgb 0.547091 0.565624 0.595981 amb 0 0 0 emis 0 0 0 spec 1 1 1 shi 64 trans 0.7
 OBJECT world
 kids 9
 OBJECT poly
 name "Compass"
 data 7
 Compass
-texture "colors.rgb"
+texture "colors.png"
 texrep 1 1
 crease 30.000000
 numvert 50
@@ -487,7 +487,7 @@ OBJECT poly
 name "Face"
 data 4
 Face
-texture "colors.rgb"
+texture "colors.png"
 texrep 1 1
 crease 30.000000
 numvert 17
@@ -610,7 +610,7 @@ OBJECT poly
 name "Fond"
 data 4
 Fond
-texture "colors.rgb"
+texture "colors.png"
 texrep 1 1
 crease 30.000000
 numvert 193
@@ -1821,7 +1821,7 @@ OBJECT poly
 name "bezelinside.001"
 data 8
 Mesh.012
-texture "colors.rgb"
+texture "colors.png"
 texrep 1 1
 crease 30.000000
 numvert 224
@@ -3047,7 +3047,7 @@ OBJECT poly
 name "visse1"
 data 6
 visse1
-texture "colors.rgb"
+texture "colors.png"
 texrep 1 1
 crease 30.000000
 numvert 184
@@ -5233,7 +5233,7 @@ OBJECT poly
 name "visse2"
 data 6
 visse2
-texture "colors.rgb"
+texture "colors.png"
 texrep 1 1
 crease 30.000000
 numvert 184
@@ -7419,7 +7419,7 @@ OBJECT poly
 name "visse3"
 data 6
 visse3
-texture "colors.rgb"
+texture "colors.png"
 texrep 1 1
 crease 30.000000
 numvert 184
@@ -9605,7 +9605,7 @@ OBJECT poly
 name "visse4"
 data 6
 visse4
-texture "colors.rgb"
+texture "colors.png"
 texrep 1 1
 crease 30.000000
 numvert 184
@@ -11791,7 +11791,7 @@ OBJECT poly
 name "vitre"
 data 5
 vitre
-texture "glass.rgb"
+texture "glass.png"
 texrep 1 1
 crease 30.000000
 numvert 290
