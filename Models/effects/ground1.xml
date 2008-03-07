@@ -5,7 +5,7 @@
   <particlesystem>
     <name>ground</name>
     <type>normal</type>
-    <texture>ground.rgb</texture>
+    <texture>ground.png</texture>
 
     <offsets>
       <x-m> 0.0 </x-m>
