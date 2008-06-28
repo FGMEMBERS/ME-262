@@ -28,19 +28,19 @@
     <shooter>
       <theta-min-deg>84</theta-min-deg>
       <theta-max-deg>86</theta-max-deg>
-      <phi-min-deg>-1.5</phi-min-deg>
-      <phi-max-deg>1.5</phi-max-deg>
+      <phi-min-deg>0.0</phi-min-deg>
+      <phi-max-deg>0.0</phi-max-deg>
       <speed>
         <value>5</value>
         <spread>0</spread>
       </speed>
       <rotspeed>
-        <minx>5</minx>
-        <miny>5</miny>
-        <minz>5</minz>
-        <maxx>25</maxx>
-        <maxy>25</maxy>
-        <maxz>25</maxz>
+        <minx>0</minx>
+        <miny>0</miny>
+        <minz>0</minz>
+        <maxx>0</maxx>
+        <maxy>0</maxy>
+        <maxz>0</maxz>
       </rotspeed>
     </shooter>
 
