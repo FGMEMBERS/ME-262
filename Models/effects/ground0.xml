@@ -16,6 +16,16 @@
       <heading-deg> 0.000 </heading-deg>
     </offsets>
 
+    <condition>
+      <and>
+        <property>/gear/gear[0]/wow</property>
+        <greater-than>
+          <property>/gear/gear[0]/rollspeed-ms</property>
+          <value>15</value>
+        </greater-than>
+      </and>
+    </condition>
+
     <emissive>false</emissive>
     <lighting>true</lighting>
 
@@ -30,62 +40,54 @@
       <theta-max-deg>86</theta-max-deg>
       <phi-min-deg>0.0</phi-min-deg>
       <phi-max-deg>0.0</phi-max-deg>
-      <speed>
+      <speed-mps>
         <value>5</value>
         <spread>0</spread>
-      </speed>
-      <rotspeed>
-        <minx>0</minx>
-        <miny>0</miny>
-        <minz>0</minz>
-        <maxx>0</maxx>
-        <maxy>0</maxy>
-        <maxz>0</maxz>
-      </rotspeed>
+      </speed-mps>
+      <rotation-speed>
+        <x-min-deg-sec>0</x-min-deg-sec>
+        <y-min-deg-sec>0</y-min-deg-sec>
+        <z-min-deg-sec>0</z-min-deg-sec>
+        <x-max-deg-sec>0</x-max-deg-sec>
+        <y-max-deg-sec>0</y-max-deg-sec>
+        <z-max-deg-sec>0</z-max-deg-sec>
+      </rotation-speed>
     </shooter>
 
     <counter>
-      <pps>
+      <particles-per-sec>
         <value>250</value>
         <spread>2</spread>
-      </pps>
-      
-      <condition>
-        <and>
-          <property>/gear/gear[0]/wow</property>
-          <greater-than>
-            <property>/gear/gear[0]/rollspeed-ms</property>
-            <value>15</value>
-          </greater-than>
-        </and>
-      </condition>    
+      </particles-per-sec>
     </counter>
       
     <align>billboard</align>
     
     <particle>
-      <startcolor>
-        <red><value>0.2</value></red>
-        <green><value>0.2</value></green>
-        <blue><value>0.2</value></blue>
-        <alpha><value>0.2</value></alpha>
-      </startcolor>
-        
-      <endcolor>
-        <red><value>.8</value></red>
-        <green><value>.8</value></green>
-        <blue><value>.8</value></blue>
-        <alpha><value>1</value></alpha>
-      </endcolor>
-        
-      <startsize>
-        <value>0.1</value>
-      </startsize>
+      <start>
+        <color>
+          <red><value>0.2</value></red>
+          <green><value>0.2</value></green>
+          <blue><value>0.2</value></blue>
+          <alpha><value>0.2</value></alpha>
+        </color>
+        <size>
+          <value>0.1</value>
+        </size>
+      </start>
 
-      <endsize>
-        <value>0.2</value>
-      </endsize>
-        
+      <end>
+        <color>
+          <red><value>.8</value></red>
+          <green><value>.8</value></green>
+          <blue><value>.8</value></blue>
+          <alpha><value>1</value></alpha>
+        </color>
+        <size>
+          <value>0.2</value>
+        </size>
+      </end>
+
       <life-sec>
         <value>0.10</value>
       </life-sec>
@@ -96,8 +98,8 @@
       
     <program>
       <fluid>air</fluid>
-      <gravity>enable</gravity>
-      <wind>disable</wind>
+      <gravity>true</gravity>
+      <wind>false</wind>
     </program>
       
   </particlesystem>
