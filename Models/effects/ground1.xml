@@ -41,23 +41,23 @@
       <phi-min-deg>0.0</phi-min-deg>
       <phi-max-deg>0.0</phi-max-deg>
       <speed-mps>
-        <value>5</value>
-        <spread>0</spread>
+        <value>  0 </value>
+        <spread> 0 </spread>
       </speed-mps>
       <rotation-speed>
-        <x-min-deg-sec>0</x-min-deg-sec>
-        <y-min-deg-sec>0</y-min-deg-sec>
-        <z-min-deg-sec>0</z-min-deg-sec>
-        <x-max-deg-sec>0</x-max-deg-sec>
-        <y-max-deg-sec>0</y-max-deg-sec>
-        <z-max-deg-sec>0</z-max-deg-sec>
+        <x-min-deg-sec> 0 </x-min-deg-sec>
+        <y-min-deg-sec> 0 </y-min-deg-sec>
+        <z-min-deg-sec> 0 </z-min-deg-sec>
+        <x-max-deg-sec> 0 </x-max-deg-sec>
+        <y-max-deg-sec> 0 </y-max-deg-sec>
+        <z-max-deg-sec> 0 </z-max-deg-sec>
       </rotation-speed>
     </shooter>
 
     <counter>
       <particles-per-sec>
-        <value>250</value>
-        <spread>2</spread>
+        <value> 15 </value>
+        <spread> 0 </spread>
       </particles-per-sec>
     </counter>
       
@@ -66,25 +66,25 @@
     <particle>
       <start>
         <color>
-          <red><value>0.2</value></red>
-          <green><value>0.2</value></green>
-          <blue><value>0.2</value></blue>
-          <alpha><value>0.2</value></alpha>
+          <red><value>   0.2 </value></red>
+          <green><value> 0.2 </value></green>
+          <blue><value>  0.2 </value></blue>
+          <alpha><value> 0.2 </value></alpha>
         </color>
         <size>
-          <value>0.1</value>
+          <value>0.01</value>
         </size>
       </start>
 
       <end>
         <color>
-          <red><value>.8</value></red>
-          <green><value>.8</value></green>
-          <blue><value>.8</value></blue>
-          <alpha><value>1</value></alpha>
+          <red><value>   0.8 </value></red>
+          <green><value> 0.8 </value></green>
+          <blue><value>  0.8 </value></blue>
+          <alpha><value> 1.0 </value></alpha>
         </color>
         <size>
-          <value>0.2</value>
+          <value>0.02</value>
         </size>
       </end>
 
@@ -92,14 +92,14 @@
         <value>0.10</value>
       </life-sec>
         
-      <mass-kg>0.50</mass-kg>
-      <radius-m>0.5</radius-m>
+      <mass-kg>  1.0 </mass-kg>
+      <radius-m> 0.5 </radius-m>
     </particle>
       
     <program>
-      <fluid>air</fluid>
-      <gravity>true</gravity>
-      <wind>false</wind>
+      <fluid>    air </fluid>
+      <gravity> true </gravity>
+      <wind>   false </wind>
     </program>
       
   </particlesystem>

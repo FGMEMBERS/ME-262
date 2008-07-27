@@ -1,4 +1,4 @@
-English/Fran√ßais
+English/FranÁais
 
 [English]
 ----------
@@ -37,7 +37,7 @@ December, 31, 2007.
 http://helijah.free.fr/flightgear/hangar.htm
 embaranger@free.fr
 
-[Fran√ßais]
+[FranÁais]
 ----------
 
 Un peu d'histoire
@@ -48,14 +48,14 @@ Messerschmitt Me 262
 
 Constructeur                  :
 Type                          :
-Ann√©e                         :
+AnnÈe                         :
 Moteur                        :
 Envergure                     :
 Longueur                      :
 Hauteur                       :
-Poids estim√© au d√©collage     :
-Vitesse estim√©e de croisi√®re  :
-Autonomie estim√©e             :
+Poids ‡ vide                  :
+Vitesse de croisiËre          :
+Autonomie                     :
 Equipage                      :
 
 
@@ -70,7 +70,7 @@ Laurent HAYVEL pour la superbe livr√©e
 ===============
 BARANGER Emmanuel
 25 Mai 2007.
-31 D√©cembre 2007.
+31 DÈcembre 2007.
 
 http://helijah.free.fr/flightgear/hangar.htm
 embaranger@free.fr

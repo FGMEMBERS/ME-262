@@ -16,6 +16,9 @@
 
     <model>
       <path>Aircraft/ME-262/Models/me262.xml</path>
+      <livery>
+        <file type="string">default</file>
+      </livery>
     </model>
 
     <submodels> 
@@ -41,7 +44,9 @@
         <desc>Guns fire</desc>
       </key>
     </help>
-    
+
+    <menubar include="Dialogs/me262-menu.xml"/>
+
   </sim>
 
   <yasim>
@@ -85,6 +90,7 @@
   <nasal>
     <me262>
       <file>Aircraft/ME-262/Nasal/doors.nas</file>
+      <file>Aircraft/ME-262/Nasal/liveries.nas</file>
     </me262>
     <guns>
       <file>Aircraft/ME-262/Nasal/weapons.nas</file>

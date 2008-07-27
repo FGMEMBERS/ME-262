@@ -4,6 +4,15 @@
 
   <path>me262.ac</path>
 
+  <nasal>
+    <load>
+      var livery_update = aircraft.livery_update.new("Aircraft/ME-262/Models/Liveries", 10);
+    </load>
+    <unload>
+      livery_update.stop();
+    </unload>
+  </nasal>
+
   <animation>
     <!-- Objets opaques -->
     <object-name>fuselage</object-name>
@@ -55,13 +64,60 @@
     <object-name>bruleD</object-name>
   </animation>
 
-
   <animation>
     <type>noshadow</type>
     <object-name>verriere</object-name>
     <object-name>vitre</object-name>
     <object-name>bruleG</object-name>
     <object-name>bruleD</object-name>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>fuselage</object-name>
+    <object-name>ailes</object-name>
+    <object-name>aileronG</object-name>
+    <object-name>aileronD</object-name>
+    <object-name>voletD1</object-name>
+    <object-name>voletD2</object-name>
+    <object-name>voletG1</object-name>
+    <object-name>voletG2</object-name>
+    <object-name>porteG1</object-name>
+    <object-name>porteG2</object-name>
+    <object-name>porteD1</object-name>
+    <object-name>porteD2</object-name>
+    <object-name>porteA1</object-name>
+    <object-name>porteA2</object-name>
+    <object-name>derive</object-name>
+    <object-name>gouverne</object-name>
+    <object-name>profondeur</object-name>
+    <object-name>antenne</object-name>
+    <object-name>cable</object-name>
+    <object-name>tourverriere</object-name>
+    <object-name>axeA</object-name>
+    <object-name>axeB</object-name>
+    <object-name>axeGH</object-name>
+    <object-name>axeG</object-name>
+    <object-name>axeDH</object-name>
+    <object-name>axeD</object-name>
+    <object-name>roueA</object-name>
+    <object-name>roueG</object-name>
+    <object-name>roueD</object-name>
+    <object-name>moteurs</object-name>
+    <object-name>boutsmoteurs</object-name>
+    <object-name>armes</object-name>
+    <object-name>interieur</object-name>
+    <object-name>tourcabine</object-name>
+    <object-name>bordcabine</object-name>
+    <object-name>pilote</object-name>
+    <object-name>heliceG1</object-name>
+    <object-name>heliceG2</object-name>
+    <object-name>heliceD1</object-name>
+    <object-name>heliceD2</object-name>
+
+    <property-base>sim/model/livery</property-base>
+    <texture-prop>texture</texture-prop>
+    <texture>texture.png</texture>
   </animation>
 
   <!-- Avant -->
