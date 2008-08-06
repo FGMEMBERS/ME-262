@@ -260,7 +260,7 @@
   <!-- Particules OSG -->
   <!-- Gauche -->
   <model>
-    <path>Aircraft/ME-262/Models/effects/trails.xml</path>
+    <path>Aircraft/ME-262/Models/effects/trailL.xml</path>
     <offsets>
       <x-m>  0.478 </x-m>
       <y-m> -1.860 </y-m>
@@ -273,7 +273,7 @@
 
   <!-- Droite -->
   <model>
-    <path>Aircraft/ME-262/Models/effects/trails.xml</path>
+    <path>Aircraft/ME-262/Models/effects/trailR.xml</path>
     <offsets>
       <x-m>  0.478 </x-m>
       <y-m>  1.860 </y-m>
