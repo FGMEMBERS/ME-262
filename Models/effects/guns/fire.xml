@@ -4,8 +4,6 @@
 
   <particlesystem>
     <name>fire</name>
-    <type>normal</type>
-    <texture>smoke.png</texture>
 
     <offsets>
       <x-m> 0.0 </x-m>
@@ -16,12 +14,14 @@
       <heading-deg> 0.000 </heading-deg>
     </offsets>
 
+    <texture>smoke.png</texture>
+
+    <emissive type="bool">true</emissive>
+    <lighting type="bool">true</lighting>
+
     <condition>
       <property>controls/armament/trigger</property>
     </condition>
-
-    <emissive>true</emissive>
-    <lighting>true</lighting>
 
     <attach>local</attach>
 
@@ -30,8 +30,8 @@
     </placer>
 
     <shooter>
-      <theta-min-deg>84</theta-min-deg>
-      <theta-max-deg>86</theta-max-deg>
+      <theta-min-deg>-1.5</theta-min-deg>
+      <theta-max-deg>1.5</theta-max-deg>
       <phi-min-deg>-1.5</phi-min-deg>
       <phi-max-deg>1.5</phi-max-deg>
       <speed-mps>
@@ -39,12 +39,12 @@
         <spread>0</spread>
       </speed-mps>
       <rotation-speed>
-        <x-min-deg-sec>  5 </x-min-deg-sec>
-        <y-min-deg-sec>  5 </y-min-deg-sec>
-        <z-min-deg-sec>  5 </z-min-deg-sec>
-        <x-max-deg-sec> 25 </x-max-deg-sec>
-        <y-max-deg-sec> 25 </y-max-deg-sec>
-        <z-max-deg-sec> 25 </z-max-deg-sec>
+        <x-min-deg-sec>0</x-min-deg-sec>
+        <y-min-deg-sec>0</y-min-deg-sec>
+        <z-min-deg-sec>0</z-min-deg-sec>
+        <x-max-deg-sec>0</x-max-deg-sec>
+        <y-max-deg-sec>0</y-max-deg-sec>
+        <z-max-deg-sec>0</z-max-deg-sec>
       </rotation-speed>
     </shooter>
 
@@ -78,7 +78,7 @@
           <alpha><value> 1.0 </value></alpha>
         </color>
         <size>
-          <value>0.15</value>
+          <value>0.20</value>
         </size>
       </end>
         
@@ -87,15 +87,15 @@
       </life-sec>
         
       <mass-kg>0.25</mass-kg>
-      <radius-m>0.1</radius-m>
+      <radius-m>1.0</radius-m>
     </particle>
       
     <program>
-      <fluid>air</fluid>
-      <gravity>false</gravity>
-      <wind>false</wind>
+      <fluid>               air   </fluid>
+      <gravity type="bool"> false </gravity>
+      <wind typ="bool">     false </wind>
     </program>
-      
+     
   </particlesystem>
 
 </PropertyList>

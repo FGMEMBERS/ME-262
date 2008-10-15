@@ -2,10 +2,10 @@
 
 <PropertyList>
 
-  <path>panel1.ac</path>
+  <path>panel.ac</path>
 
   <model>
-    <path>Aircraft/ME-262/Models/Panels/Instruments/ai/ai.xml</path>
+    <path>Aircraft/ME-262/Models/Interior/Panels/Instruments/ai/ai.xml</path>
     <offsets>
       <x-m> -0.402 </x-m>
       <y-m> -0.062 </y-m>
@@ -14,7 +14,7 @@
   </model>
 
   <model>
-    <path>Aircraft/ME-262/Models/Panels/Instruments/airspeed/airspeed.xml</path>
+    <path>Aircraft/ME-262/Models/Interior/Panels/Instruments/airspeed/airspeed.xml</path>
     <offsets>
       <x-m> -0.402 </x-m>
       <y-m> -0.127 </y-m>
@@ -23,7 +23,7 @@
   </model>
 
   <model>
-    <path>Aircraft/ME-262/Models/Panels/Instruments/vsi/vsi.xml</path>
+    <path>Aircraft/ME-262/Models/Interior/Panels/Instruments/vsi/vsi.xml</path>
     <offsets>
       <x-m> -0.402 </x-m>
       <y-m>  0.002 </y-m>
@@ -32,7 +32,7 @@
   </model>
 
   <model>
-    <path>Aircraft/ME-262/Models/Panels/Instruments/clock/clock.xml</path>
+    <path>Aircraft/ME-262/Models/Interior/Panels/Instruments/clock/clock.xml</path>
     <offsets>
       <x-m> -0.411 </x-m>
       <y-m> -0.182 </y-m>
@@ -41,7 +41,7 @@
   </model>
 
   <model>
-    <path>Aircraft/ME-262/Models/Panels/Instruments/compass/compass.xml</path>
+    <path>Aircraft/ME-262/Models/Interior/Panels/Instruments/compass/compass.xml</path>
     <offsets>
       <x-m> -0.402 </x-m>
       <y-m> -0.062 </y-m>
@@ -50,7 +50,7 @@
   </model>
 
   <model>
-    <path>Aircraft/ME-262/Models/Panels/Instruments/throttle/throttle1.xml</path>
+    <path>Aircraft/ME-262/Models/Interior/Panels/Instruments/throttle/throttle1.xml</path>
     <offsets>
       <x-m> -0.411 </x-m>
       <y-m>  0.086 </y-m>
@@ -59,7 +59,7 @@
   </model>
 
   <model>
-    <path>Aircraft/ME-262/Models/Panels/Instruments/throttle/throttle2.xml</path>
+    <path>Aircraft/ME-262/Models/Interior/Panels/Instruments/throttle/throttle2.xml</path>
     <offsets>
       <x-m> -0.411 </x-m>
       <y-m>  0.146 </y-m>
@@ -68,7 +68,7 @@
   </model>
 
   <model>
-    <path>Aircraft/ME-262/Models/Panels/Instruments/egt/egtL.xml</path>
+    <path>Aircraft/ME-262/Models/Interior/Panels/Instruments/egt/egtL.xml</path>
     <offsets>
       <x-m> -0.410 </x-m>
       <y-m>  0.096 </y-m>
@@ -77,7 +77,7 @@
   </model>
 
   <model>
-    <path>Aircraft/ME-262/Models/Panels/Instruments/egt/egtR.xml</path>
+    <path>Aircraft/ME-262/Models/Interior/Panels/Instruments/egt/egtR.xml</path>
     <offsets>
       <x-m> -0.410 </x-m>
       <y-m>  0.141 </y-m>
@@ -86,7 +86,7 @@
   </model>
 
   <model>
-    <path>Aircraft/ME-262/Models/Panels/Instruments/pression/pressionL.xml</path>
+    <path>Aircraft/ME-262/Models/Interior/Panels/Instruments/pression/pressionL.xml</path>
     <offsets>
       <x-m> -0.410 </x-m>
       <y-m>  0.051 </y-m>
@@ -95,7 +95,7 @@
   </model>
 
   <model>
-    <path>Aircraft/ME-262/Models/Panels/Instruments/pression/pressionR.xml</path>
+    <path>Aircraft/ME-262/Models/Interior/Panels/Instruments/pression/pressionR.xml</path>
     <offsets>
       <x-m> -0.410 </x-m>
       <y-m>  0.187 </y-m>
@@ -104,7 +104,7 @@
   </model>
 
   <model>
-    <path>Aircraft/ME-262/Models/Panels/Instruments/fuel/fuelL.xml</path>
+    <path>Aircraft/ME-262/Models/Interior/Panels/Instruments/fuel/fuelL.xml</path>
     <offsets>
       <x-m> -0.410 </x-m>
       <y-m>  0.096 </y-m>
@@ -113,7 +113,7 @@
   </model>
 
   <model>
-    <path>Aircraft/ME-262/Models/Panels/Instruments/fuel/fuelR.xml</path>
+    <path>Aircraft/ME-262/Models/Interior/Panels/Instruments/fuel/fuelR.xml</path>
     <offsets>
       <x-m> -0.410 </x-m>
       <y-m>  0.141 </y-m>
@@ -122,7 +122,7 @@
   </model>
 
   <model>
-    <path>Aircraft/ME-262/Models/Panels/Instruments/revi16b/revi-ger.xml</path>
+    <path>Aircraft/ME-262/Models/Interior/Panels/Instruments/revi16b/revi-ger.xml</path>
     <offsets>
       <x-m> -0.511 </x-m>
       <y-m>  0.060  </y-m>
