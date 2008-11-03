@@ -9,9 +9,9 @@
       <x-m> 0.0 </x-m>
       <y-m> 0.0 </y-m>
       <z-m> 0.0 </z-m>
-      <roll-deg>    0.000 </roll-deg>
-      <pitch-deg>   0.000 </pitch-deg>
-      <heading-deg> 0.000 </heading-deg>
+      <roll-deg>     0.000 </roll-deg>
+      <pitch-deg>  -90.000 </pitch-deg>
+      <heading-deg>  0.000 </heading-deg>
     </offsets>
 
     <texture>smoke.png</texture>
@@ -35,7 +35,7 @@
       <phi-min-deg>-1.5</phi-min-deg>
       <phi-max-deg>1.5</phi-max-deg>
       <speed-mps>
-        <value>2</value>
+        <value>5</value>
         <spread>0</spread>
       </speed-mps>
       <rotation-speed>

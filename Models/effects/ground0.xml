@@ -29,19 +29,19 @@
     <emissive>false</emissive>
     <lighting>true</lighting>
 
-    <attach>world</attach>
+    <attach>local</attach>
 
     <placer>
       <type>point</type> 
     </placer>
 
     <shooter>
-      <theta-min-deg>84</theta-min-deg>
-      <theta-max-deg>86</theta-max-deg>
-      <phi-min-deg>0.0</phi-min-deg>
-      <phi-max-deg>0.0</phi-max-deg>
+      <theta-min-deg>-1.5</theta-min-deg>
+      <theta-max-deg>1.5</theta-max-deg>
+      <phi-min-deg>-1.5</phi-min-deg>
+      <phi-max-deg>1.5</phi-max-deg>
       <speed-mps>
-        <value>  0 </value>
+        <value>  2 </value>
         <spread> 0 </spread>
       </speed-mps>
       <rotation-speed>
@@ -56,7 +56,7 @@
 
     <counter>
       <particles-per-sec>
-        <value> 15 </value>
+        <value> 150 </value>
         <spread> 0 </spread>
       </particles-per-sec>
     </counter>
@@ -84,7 +84,7 @@
           <alpha><value> 1.0 </value></alpha>
         </color>
         <size>
-          <value>0.02</value>
+          <value>0.30</value>
         </size>
       </end>
 
@@ -92,8 +92,8 @@
         <value>0.10</value>
       </life-sec>
         
-      <mass-kg>  1.0 </mass-kg>
-      <radius-m> 0.5 </radius-m> 
+      <mass-kg>  0.25 </mass-kg>
+      <radius-m> 1.00 </radius-m> 
     </particle>
       
     <program>
