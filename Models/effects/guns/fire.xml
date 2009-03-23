@@ -91,9 +91,9 @@
     </particle>
       
     <program>
-      <fluid>               air   </fluid>
+      <fluid type="bool">   true  </fluid>
       <gravity type="bool"> false </gravity>
-      <wind typ="bool">     false </wind>
+      <wind type="bool">    false </wind>
     </program>
      
   </particlesystem>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <PropertyList>
 
@@ -25,7 +25,6 @@
       <serviceable type="bool">true</serviceable>
       <path>Aircraft/ME-262/Models/effects/guns/submodels.xml</path>
     </submodels>
-
 
     <startup>
      <splash-texture>Aircraft/ME-262/me262-splash.png</splash-texture>

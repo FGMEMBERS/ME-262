@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <PropertyList>
 
@@ -35,7 +35,7 @@
   <animation>
     <type>rotate</type>
     <object-name>lunettes</object-name>
-    <property>instrumentation/doors/crew/position-norm</property>
+    <property>/instrumentation/doors/crew/position-norm</property>
     <factor> 45</factor>
     <center>
       <x-m> 0.273 </x-m>
@@ -52,7 +52,7 @@
   <animation>
     <type>rotate</type>
     <object-name>AnimeTete</object-name>
-    <property>controls/flight/elevator</property>
+    <property>/controls/flight/elevator</property>
     <factor> -15 </factor> 
     <center>
       <x-m>  0.300 </x-m>
@@ -69,7 +69,7 @@
   <animation>
     <type>rotate</type>
     <object-name>AnimeTete</object-name>
-    <property>controls/flight/rudder</property>
+    <property>/controls/flight/rudder</property>
     <factor>-25</factor>
     <center>
       <x-m>  0.300 </x-m>
@@ -86,7 +86,7 @@
   <animation>
     <type>rotate</type>
     <object-name>AnimeTete</object-name>
-    <property>surface-positions/left-aileron-pos-norm</property>
+    <property>/surface-positions/left-aileron-pos-norm</property>
     <factor> -10.0</factor>
     <center>
       <x-m>  0.300 </x-m>
