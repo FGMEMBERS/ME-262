@@ -136,7 +136,7 @@
   </animation>
 
   <effect>
-    <inherits-from>Aircraft/ME-262/Models/effects/Me262reflect</inherits-from>
+    <inherits-from>Aircraft/Generic/Effects/Fuselagereflect</inherits-from>
     <object-name>fuselage</object-name>
     <object-name>ailes</object-name>
     <object-name>aileronG</object-name>
