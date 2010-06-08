@@ -460,7 +460,7 @@
     <type>rotate</type>
     <object-name>gouverne</object-name>
     <property>surface-positions/rudder-pos-norm</property>
-    <factor> 20 </factor>
+    <factor> -20 </factor>
     <center>
       <x-m> 5.361 </x-m>
       <y-m> 0.000 </y-m>
@@ -844,7 +844,7 @@
     <type>rotate</type>
     <object-name>RoueAvant</object-name>
     <property>surface-positions/rudder-pos-norm</property>
-    <factor> 10 </factor>
+    <factor> -10 </factor>
     <axis>
       <x1-m> -5.694 </x1-m>
       <y1-m>  0.000 </y1-m>
