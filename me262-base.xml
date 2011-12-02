@@ -30,23 +30,25 @@
      <splash-texture>Aircraft/ME-262/me262-splash.png</splash-texture>
     </startup>
 
-    <virtual-cockpit archive="y">true</virtual-cockpit>
-
     <multiplay>
       <chat_display>1</chat_display>
-      <generic>
-        <int type="int" n="0">0</int>
-        <int type="int" n="1">0</int>
-        <int type="int" n="2">0</int>
-        <int type="int" n="3">0</int>
-        <int type="int" n="4">0</int>
-        <int type="int" n="5">0</int>
+      <generic> 
+        <int type="int" n="0">  0 </int>                                           <!--  0 immat -->
+        <int type="int" n="1">  0 </int>                                           <!--  1 immat -->
+        <int type="int" n="2">  0 </int>                                           <!--  2 immat -->
+        <int type="int" n="3">  0 </int>                                           <!--  3 immat -->
+        <int type="int" n="4">  0 </int>                                           <!--  4 immat -->
+        <int type="int" n="5">  0 </int>                                           <!--  5 immat -->
+        <int type="bool" n="6" alias="/smoke/active"> 0 </int>                     <!-- 6 smoke/bomb/torpedo -->
+        <int type="int" n="10" alias="controls/armament/trigger">0</int>           <!-- 10 reserved for bombable mode -->
         <float n="0" alias="/instrumentation/doors/crew/position-norm"/>
         <float n="1" alias="/instrumentation/doors/passenger/position-norm"/>
+        <float n="2" alias="/position/gear-agl-m"> 0 </float>                      <!-- altitude for MP shadow -->
+        <string n="9" type="string" />                                             <!-- string[9] reserved for bombable mode -->
       </generic>
     </multiplay>
 
-    <help>
+     <help>
       <title>Messerschmitt Me 262</title>
       <key>
         <name>d</name>
@@ -106,11 +108,15 @@
     </doors>
     <me262>
       <file>Aircraft/ME-262/Nasal/liveries.nas</file>
+      <file>Aircraft/ME-262/Nasal/light.nas</file>
     </me262>
     <guns>
       <file>Aircraft/ME-262/Nasal/weapons.nas</file>
       <file>Aircraft/ME-262/Nasal/revi.nas</file>
     </guns>
+    <engines>
+      <file>Aircraft/Generic/Engines/generic-yasim-engine.nas</file>
+    </engines>
   </nasal>
 
 </PropertyList>

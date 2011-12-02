@@ -4,8 +4,17 @@
 <PropertyList include="me262-yasim-cnf.xml">
 
   <sim>
+
     <description>Messerschmitt Me-262</description>
     <author>Emmanuel BARANGER (3D/ / Michael KOEHNE (FDM) / Laurent HAYVEL (Texture)</author>
+
+    <rating>
+      <FDM type="int">     3 </FDM>
+      <systems type="int"> 2 </systems>
+      <cockpit type="int"> 3 </cockpit>
+      <model type="int">   4 </model>
+    </rating>
+
   </sim>
 
 </PropertyList>
