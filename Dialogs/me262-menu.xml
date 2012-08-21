@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?> 
 
 <PropertyList>
 
@@ -6,13 +6,6 @@
     <menu n="10">
       <label>ME 262</label>
       <enabled type="bool">true</enabled>
-      <item>
-        <label>Autostart</label>
-        <binding>
-          <command>nasal</command>
-          <script>engine.autostart();</script>
-        </binding>
-      </item>
       <item>
         <label>Select Livery</label>
         <binding>

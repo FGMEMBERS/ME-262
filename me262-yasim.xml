@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?> 
 
 <!--  Messerschmitt 262
 
@@ -182,8 +182,7 @@
   <tank x="1.10" y="-2.3" z="-0.130" jet="true" capacity="1250"/>
   <tank x="1.10"  y="2.3" z="-0.130" jet="true" capacity="1250"/>
 
-  <!-- CG Theorique x=1.358 y=0 z=-0.260 -->
-  <!-- x a 1.536 pour etre en avant des roues -->
+  <!-- Mass displacment -->
   <ballast x="3.9" y="0.0" z="-1.55" mass="1000"/>
 
 </airplane>
