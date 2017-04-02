@@ -15,6 +15,15 @@
       <model type="int">   4 </model>
     </rating>
 
+    <tags>
+      <tag>fighter</tag>
+      <tag>bomber</tag>
+      <tag>ww2</tag>
+      <tag>retractable-gear</tag>
+      <tag>jet</tag>
+      <tag>twin-engine</tag>
+    </tags>
+
   </sim>
 
 </PropertyList>
